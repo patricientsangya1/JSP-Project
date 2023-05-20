@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 25, 2023, 8:37:59 PM
+    Author     : michael
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.firstone{
+    display: flex;
+    height: 93vh;
+}
+h1{
+    color:#3167B4;
+}
+#bar-tout{
+/*    background-color: white;*/
+   height: 93vh;
+    float: left;
+    width: 30%;
+
+}
+#registration{
+   
+    float: right;
+    height: 93.1vh;
+    width: 80%; 
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;   
+/*  background-image: url('../photo/background.jpg');*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.form-group{
+    margin-bottom: 1px;
+}
+#registrationform{
+    
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.26);
+    perspective: 100px;
+    border-radius: 5px;
+    height: 90%;
+    width: 80%;
+    opacity: 90%;
+
+/*    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+#register{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    color: #3167B4;
+}
+.all{
+  width: 90%;
+  padding:15px;
+  color: black;
+  font-size: 12px;
+  margin:0px 0px 10px 10px;
+  border-radius: 5px; 
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+}
+.a{
+  width: 55%;
+  padding:15px;
+  color: black;
+  font-size: 12px;
+  margin:0px 0px 10px 10px;
+  border-radius: 5px; 
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+    
+}
+#al{
+  width: 90%;
+  padding:15px;
+  color: black;
+  font-size: 12px;
+  margin:0px 0px 30px 10px;
+  border-radius: 5px; 
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+}
+label{
+    margin-left: 10px;
+}
+#country-code{
+  margin:0px 0px 30px 10px;
+  padding: 15px;
+  color: black;
+  font-size: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px; 
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+  width: 30%;
+}
+.r{
+    margin: 5px;
+}
+.posi{
+    float: left;
+    width: 50%;
+    margin-bottom: -30px;
+
+}
+.position{
+    float: right;
+    width: 50%;
+   margin-bottom: -30px;
+}
+#submit-admission{
+  background-color: white;
+  color:  black;
+  padding: 15px 27px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#submit-admission:hover{
+  background-color:#3167B4;
+  color: white;
+  border: 1px solid black;
+}
+
+.generale{
+    display: flex;
+ 
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+input:focus {
+  border: 2px solid #3167B4;
+}
+.image{
+    align-items: center;
+    margin: 10px;
+}
+.field{
+  align-items: center;  
+  margin: 20px;
+  border-radius: 10px;
+}
+.mag{
+    margin: 20px;
+}
+legend{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+fieldset {
+  height: 500px;
+  overflow-y: scroll;
+  color: #242222;
+}
+
+/* Styling for the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c3c3c3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3167B4;
+}
+  

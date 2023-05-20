@@ -1,0 +1,211 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 7, 2023, 9:44:50 AM
+    Author     : michael
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+   
+   
+}
+
+.container{
+    width: 150%;
+    height: 92vh;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card{
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.26);
+        
+   
+}
+.inner-box{
+    position: relative;
+    width: 100%;
+    height: 90%;  
+    transform-style: preserve-3d;  
+    transition: transform 1s;
+}
+.card-front,.card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-szing: border-box;
+    backface-visibility: hidden;
+    
+}
+.card-back{
+    transform: rotateY(-180deg);
+    
+}
+.card h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 30px;
+    color: #3167B4;
+    padding-bottom: 50px;
+}
+
+label{
+     display: block;
+     margin-bottom: 5px;
+     color: #ffffff;
+}
+.all{
+ 
+  width: 98%;
+  padding: 15px;
+  color: black;
+  font-size: 12px;
+  margin-bottom: 30px;
+  border-radius: 5px; 
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+  
+}
+
+#button{
+   
+   margin: 50px; 
+   width: 33vh; 
+   border: 1px solid white;
+   border-radius: 15px;
+   background: transparent;
+   padding-bottom: 36px; 
+   
+}
+::placeholder{
+    font-size: 12px;
+}
+.forgot{
+    background-color: #3167B4;
+}
+#submit-btn {
+  background-color: #3167B4;
+  color: white;
+  padding: 10px 27px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  float: left;
+ 
+}
+
+.card #reset-btn{
+  float: right;
+  background-color: white;
+  color: black;
+  text-decoration: black;
+  padding: 10px 23px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+ 
+}
+#reset-btn:hover{
+     background-color: #3167B4;
+     color: white;
+
+}
+
+span{
+    margin-left:10px;
+    font-size: 11px;
+}
+#remember{
+    margin-bottom:10px;
+   
+}
+
+#log{
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#reg{
+    font-weight: normal;
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #3167B4;
+    
+}
+
+
+.card a{
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+
+ /*divbackend*/
+.allinput{
+  width: 98%;
+  padding: 15px;
+  color: black;
+  font-size: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px; 
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+ }
+ label{
+     font-size: 11px;
+     font-family: sans-serif;
+ }
+ #but{ 
+   margin:50px 50px 20px 50px; 
+   width: 33vh; 
+   border: 1px solid white;
+   border-radius: 15px;
+   background: transparent;
+   padding-bottom: 36px; 
+}
+
+#submi-btn{
+  background-color: white;
+  color: black;
+  padding: 10px 27px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  float: left;
+}
+.card #rese-btn{
+  float: right;
+  background-color: #3167B4;
+  color: white;
+  text-decoration: black;
+  padding: 10px 23px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+#submi-btn:hover{
+     background-color: #3167B4;
+     color: white;
+
+}
+input:focus {
+  border: 2px solid #3167B4;
+  font-size: 15px;
+}

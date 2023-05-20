@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- custome css  -->
+        <link rel="stylesheet" href="./style.css">
+        <title>Admission</title>
+    </head>
+    <body>
+        <div class="main-parent">
+            
+                <h1><span>Admission</span>Form</h1>
+                <div>
+                    <p>Student Names:</p>
+                    <p>Gender:</p>
+                    <p>Native Country:</p>
+                    <p>Age: years old</p>
+                </div>
+            <div class="form-wrap">
+                <!--<form  style='width:50%;margin:auto;background: #ffcc33;padding:25px'>-->
+                <form method="post" action="/AssignmentFinal/admission">
+                    <div > Father's Names:<br/><input name='father' type='text'  placeholder='Enter Father Names' required='required'/></div>
+                    <div>Mother's Names:<br/><input name="mother" type='text'  placeholder='Enter Mother Names' required='required'/></div>
+                    <div>Sponsor's:<br/><input name='sponsor' type='text'  placeholder='Enter Sponsor Names' required='required'/></div>
+                    <div> Select Faculty:<br/><select name='faculty'>
+                        <option>Software Engineering</option>
+                        <option>Networking</option>
+                        <option>Information Management</option>
+                        <option>Accounting</option>
+                    </select>
+                    </div>
+                    <div> Profile Picture:<br/><input type='file' name='profile' style='width:75%'/></div>
+                    <div>Upload Diploma:<br/><input type='file' name='diploma'/></div>
+                    <div >Why DO you Choose Our School:<br/><textarea name='description' cols='50' rows='6' placeholder='Please tell us about yourself and motivation to join AUCAl'></textarea>
+                    </div>
+                    <div style='text-align:center;margin:20px'><input type='submit' value='Submit' style='background: #b1f49b;width:50%'/></div>
+                </form>
+            </div>
+         </div>
+    </body>
+</html>
